@@ -1,0 +1,3 @@
+[submodule "ngo-connect-admin-backend"]
+	path = ngo-connect-admin-backend
+	url = https://github.com/Deceptrax123/ngo-connect-admin-backend.git
