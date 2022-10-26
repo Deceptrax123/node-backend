@@ -19,6 +19,11 @@ const clientSchema=new mongoose.Schema({
         type:Boolean,
         required:true,
         default:false
+    },
+    documentVerified:{
+        type:String,
+        required:true,
+        default:"No"
     }
 });
 
