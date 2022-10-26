@@ -14,8 +14,6 @@ const clientSchema=new mongoose.Schema({
     },
     password:{
         type:String,
-        required:true,
-        unique:true
     },
     verified:{
         type:Boolean,
