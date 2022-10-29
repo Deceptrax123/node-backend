@@ -15,6 +15,16 @@ const profileSchema=new mongoose.Schema({
         type:String,
         required:true
     },
+    address:{
+        street:{
+            type:String,
+            required:true
+        },
+        pin:{
+            type:String,
+            required:true
+        },
+    },
     documents:[
         {
             data:{
