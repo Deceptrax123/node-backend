@@ -6,17 +6,6 @@ const ticketSchema=new mongoose.Schema({
         ref:"User"
     },
     requestType:{
-        donation:{
-            item:{
-                type:String,
-            },
-            minCount:{
-                type:String,
-            },
-            note:{
-                type:String,
-            },
-        },
         volunteering:{
             service:{
                 type:String,
