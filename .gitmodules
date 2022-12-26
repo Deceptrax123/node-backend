@@ -4,3 +4,6 @@
 [submodule "ngo-connect-client-backend"]
 	path = ngo-connect-client-backend
 	url = https://github.com/Deceptrax123/ngo-connect-client-backend.git
+[submodule "doc-auth"]
+	path = doc-auth
+	url = https://github.com/Deceptrax123/doc-auth.git
